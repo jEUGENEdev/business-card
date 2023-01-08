@@ -1,0 +1,44 @@
+html, body, .main {
+    margin: 0;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "JetBrains Mono", sans-serif;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.9);
+    display: block;
+    padding: 40px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0 0 20px;
+}
+
+.info, .info-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card span {
+    display: block;
+}
+
+.info-name span {
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.info-description span {
+    font-size: 18px;
+}
+
+.info-bottom {
+    margin-top: 10%;
+}
